@@ -1,11 +1,11 @@
----
+***
 
 # ChurnAnalysis
 
-End-to-end customer churn project: data modeling in SQL Server, feature engineering and prediction with **Random Forest**, and business reporting in **Power BI**.
+End-to-end customer churn project data modeling in SQL Server, feature engineering and prediction with **Random Forest**, and business reporting in **Power BI**.
 The repo includes the full pipeline (SQL → Python/ML → Excel extracts → Power BI) plus a ready-to-refresh PBIX.
 
----
+***
 
 ## Repository structure
 
