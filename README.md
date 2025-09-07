@@ -208,7 +208,12 @@ y_prob = rf.predict_proba(X_test)[:, 1]
 * **SQL Server** (optional if working from Excel only)
 
 ---
+## Dashboard Snapshots
+*  <img width="1281" height="723" alt="summary" src="https://github.com/user-attachments/assets/07337580-0334-40d2-b1c7-4762b767a116" />
+*  <img width="1277" height="725" alt="churn prediction" src="https://github.com/user-attachments/assets/b2b9e359-f215-4254-b8c6-a416a193b68e" />
 
+
+---
 ## Credits & notes
 
 * All data and artifacts in this repo are for demonstration/learning.
