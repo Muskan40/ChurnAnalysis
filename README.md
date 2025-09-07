@@ -27,16 +27,23 @@ ChurnAnalysis/
 
 ---
 
-## Project goals
+## Project Goals  
 
-* Build a reliable **churn dataset** suitable for modeling and BI
-* Train and evaluate a **Random Forest classifier** to predict churn risk
-* Publish a **Power BI** report with:
-
-  * Churn overview & KPIs
-  * Segmentation and drill-downs
-  * Drivers/feature importance
-  * A **Prediction** page using the model’s scored file
+- **Develop an end-to-end ETL process** to extract, transform, and load customer data into a database for analysis.  
+- **Design and publish an interactive Power BI dashboard** to visualize customer data across multiple dimensions:  
+  - Demographics  
+  - Geography  
+  - Payment & Account Information  
+  - Services Subscribed  
+- **Analyze churner profiles** to uncover patterns and identify areas where targeted marketing campaigns can be implemented.  
+- **Build a robust churn dataset** optimized for both predictive modeling and business intelligence reporting.  
+- **Implement and evaluate a Random Forest classifier** to predict future customer churn with measurable accuracy.  
+- **Integrate machine learning insights into Power BI**, including:  
+  - Overall churn KPIs and trends  
+  - Segmentation and drill-down views  
+  - Key churn drivers (feature importance)  
+  - A dedicated **Prediction page** with scored outputs from the model.  
+   
 
 ---
 
@@ -213,16 +220,6 @@ y_prob = rf.predict_proba(X_test)[:, 1]
 
 Open an issue or start a discussion in the repo — happy to help you extend this into a production-grade churn solution (automated refresh, MLOps, CI/CD for PBIX, etc.).
 
----
 
-### (Optional) Badges to add at the top
 
-```markdown
-![Python](https://img.shields.io/badge/Python-3.9+-blue)
-![sklearn](https://img.shields.io/badge/ML-scikit--learn-orange)
-![Power BI](https://img.shields.io/badge/BI-Power%20BI-yellow)
-![SQL Server](https://img.shields.io/badge/DB-SQL%20Server-red)
-```
-
----
 
